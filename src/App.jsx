@@ -9,12 +9,14 @@ function App() {
 
   function handlePrevious() {
     if (step > 1 && step <= 3) {
-      setStep(step - 1);
+      setStep((step) => step - 1);
     }
   }
   function handleNext() {
     if (step >= 1 && step < 3) {
-      setStep(step + 1);
+      setStep((step) => step + 1);
+      setStep((step) => step + 1);
+      console.log(step);
     }
   }
 
