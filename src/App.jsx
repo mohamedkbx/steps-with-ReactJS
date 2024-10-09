@@ -15,8 +15,6 @@ function App() {
   function handleNext() {
     if (step >= 1 && step < 3) {
       setStep((step) => step + 1);
-      setStep((step) => step + 1);
-      console.log(step);
     }
   }
 
